@@ -1,8 +1,8 @@
 import streamlit as st
 
 col1, col2 = st.columns([1, 5])
-with col1:
-    st.image("Yeni klasör/logo.jpg", width=100)
+# with col1:
+#     st.image("Yeni klasör/logo.jpg", width=100)
 
 with col2:
     st.title("Project OPT-0158")
@@ -12,7 +12,7 @@ st.markdown(title, unsafe_allow_html=True)
 
 
 st.title("BSL 3 Cabinet")
-with open("Yeni klasör/Gine Lab/1. BSL III cabinet .pdf", "rb") as f:
+with open("1. BSL III cabinet .pdf", "rb") as f:
     pdf_bytes = f.read()
 
 if st.button("📄 Datasheet"):
