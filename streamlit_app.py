@@ -11,14 +11,29 @@ title = '<p style="font-family:Courier; color:Blue; font-size: 30px;">Truck Base
 st.markdown(title, unsafe_allow_html=True)
 
 
+
 st.title("BSL 3 Cabinet")
-with open("1. BSL III cabinet .pdf", "rb") as f:
-    pdf_bytes = f.read()
+with open("Gine Lab/1. BSL III cabinet .pdf", "rb") as f:
+    pdf_bytes1 = f.read()
 
 if st.button("📄 Datasheet"):
     st.download_button(
         label="Download",
-        data=pdf_bytes,
-        file_name="kullanim_kilavuzu.pdf",
+        data=pdf_bytes1,
+        file_name="BSLIIICabinet.pdf",
         mime="application/pdf"
     )
+
+st.title("Laboratory Refriagerator & Freezer")
+with open("Gine Lab/2. Laboratory refrigerator and freezer .pdf", "rb") as f:
+    pdf_bytes2 = f.read()
+
+if st.button("📄 Datasheet"):
+    st.download_button(
+        label="Download",
+        data=pdf_bytes2,
+        file_name="LaboratoryRefrigeratorFreezer.pdf",
+        mime="application/pdf"
+    )
+
+
