@@ -25,8 +25,8 @@ if st.button("📄 Datasheet"):
     )
 
 st.title("Laboratory Refriagerator & Freezer")
-with open("Gine Lab/2. Laboratory refrigerator and freezer .pdf", "rb") as f:
-    pdf_bytes2 = f.read()
+with open("Gine Lab/2. Laboratory refrigerator and freezer .pdf", "rb") as g:
+    pdf_bytes2 = g.read()
 
 if st.button("📄 Datasheet"):
     st.download_button(
