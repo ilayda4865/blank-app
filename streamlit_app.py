@@ -16,7 +16,7 @@ st.title("BSL 3 Cabinet")
 with open("Gine Lab/1. BSL III cabinet .pdf", "rb") as f:
     pdf_bytes1 = f.read()
 
-if st.button("📄 Datasheet"):
+if st.button("📄 Datasheet", key="datasheet_button1"):
     st.download_button(
         label="Download",
         data=pdf_bytes1,
@@ -28,7 +28,7 @@ st.title("Laboratory Refriagerator & Freezer")
 with open("Gine Lab/2. Laboratory refrigerator and freezer .pdf", "rb") as g:
     pdf_bytes2 = g.read()
 
-if st.button("📄 Datasheet"):
+if st.button("📄 Datasheet", key="datasheet_button2"):
     st.download_button(
         label="Download",
         data=pdf_bytes2,
