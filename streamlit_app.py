@@ -8,7 +8,7 @@ st.image("logo.jpg", width=150)
 with col2:
     st.title("Project OPT-0158")
 
-title = '<p style="font-family:Courier; color:Blue; font-size: 30px;">Truck Based Laboratory Container (BSL3)</p>'
+title = '<p style="font-family:Courier; color:White; font-size: 30px;">Truck Based Laboratory Container (BSL3)</p>'
 st.markdown(title, unsafe_allow_html=True)
 
 
